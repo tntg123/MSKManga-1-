@@ -109,7 +109,7 @@ console.log(`${label} & ${lang}`);
             }), n.filter(function(n) {
               r.join(", ").includes(n) && (o += '<li class="char"><div class="chpName"><a href="' + e + '" title="' + t + '">' + a + '<span class="new-tag">new</span></a></div><time class="chpDate">' + i + "</time></li>")
             })
-          }), n += '<div class="bookItem bb-1pxsf"><a href="' + e + '" title="' + t + '"><div class="snippet-thumbnail relative"><img loading="lazy" src="' + i + '"/>'+stat+lang+typ+'</div></a><div class="data"><div class="tieude" style="padding: 10px 0px 10px 0px"><a class="oh" style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical" href="' + e + '" title="' + t + '">' + t + '</a></div><ul class="subItem">' + o + "</ul></div></div></div>"
+          }), n += '<div class="bookItem bb-1pxsf"><a href="' + e + '" title="' + t + '"><div class="snippet-thumbnail relative"><img loading="lazy" data-src="' + i + '"/>'+stat+lang+typ+'</div></a><div class="data"><div class="tieude" style="padding: 10px 0px 10px 0px"><a class="oh" style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical" href="' + e + '" title="' + t + '">' + t + '</a></div><ul class="subItem">' + o + "</ul></div></div></div>"
         }), i.innerHTML = n
       }
     },
